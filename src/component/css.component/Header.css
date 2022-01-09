@@ -1,0 +1,55 @@
+/* Header css */
+.nav1 {
+    background-color: #1c1c1b;
+  }
+.nav1 .logo {
+    padding: 0%;
+    width: 150px;
+    height: 40px;  }
+@media (max-width: 589px) { 
+    .nav1 .logo {
+      padding: 0%;
+      width: 100px;
+      height: 40px;
+    }
+    .nav2 .logo {
+      width: 150px !important ;
+    }
+    .nav1 .nav-link{
+      display: none;
+    }
+    .nav2 li{
+      display: block !important ;
+      }
+      .nav2 li .nav-link:first-child{
+        background-color: #cccd00 ;
+        color: aliceblue !important ;
+      }
+      .nav2 li .nav-link:nth-of-type(2){
+        background-color: #33b8e7;
+        color: aliceblue !important ;
+  
+      }
+    
+    }
+  .nav2 li{display: none;}
+  .nav1 .nav-link{
+    padding: 0.5em 1.5em  ;
+    color: aliceblue !important ;
+  }
+  .nav1 .nav-link:first-child{
+    background-color: #cccd00 ;
+  }
+  .nav1 .nav-link:nth-of-type(2){
+    background-color: #33b8e7;
+  }
+  .nav2 .logo {
+    width: 200px;
+    height: 60px;
+  }
+  .search-icon  {
+    border-left: 1px solid black;
+  }
+  .modal-lg{
+    margin-top: 10rem;
+  }

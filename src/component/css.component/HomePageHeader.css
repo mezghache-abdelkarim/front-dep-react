@@ -1,0 +1,69 @@
+/* HomePageHeader css */
+.HomePageHeader.container{
+    position: relative;
+    }
+  
+  .HomePageHeader .col-lg-5{
+    background-color: #1c1c1b;
+  }
+  .HomePageHeader .col-lg-5 img{
+    position: absolute;
+    max-width: 100%;
+    height: 500px;
+    margin-left: -330px;
+    /* opacity: 6%; */
+    background-color: #1c1c1b ;
+    z-index: 1;
+  }
+  .HomePageHeader .col-lg-7 img{
+    width: 893px;
+    height: 500px;
+  }
+  .HomePageHeader .carousel{
+    position: absolute;
+    z-index: 2;
+    background-color: #eff2fe;    /*z-index: -1;*/
+    width: 420px;
+    height: 170px;
+    top: 20%;
+    left: 20%;
+    text-align: left;
+  }
+  .HomePageHeader .carousel p {
+    color: #1c1c1b !important ;
+    font-size: 110%;
+    font-weight: 700;
+  }
+  .HomePageHeader .carousel-control-prev{
+  display: none;
+}
+.HomePageHeader .carousel-control-next{
+  display: none;
+}
+.HomePageHeader .carousel-indicators{
+margin-bottom: -40px;
+margin-left: -240px;}
+
+.HomePageHeader .carousel-indicators button{
+width: 15px !important ;
+height: 15px !important;
+border-radius: 50%;
+border: 2px solid #5b5b5b !important ;
+}
+
+.HomePageHeader .carousel-indicators .active{
+background-color: #1c1c1b;
+border: 2px solid #efefef !important ;
+
+}
+.HomePageHeader .carousel-item a{
+    padding: 5px 45px 5px 45px ;
+    border: none;
+    background-color: #cccd00;
+}
+.HomePageHeader .carousel-item i{
+  color: #efefef;
+}
+@media (max-width: 589px) { 
+
+}
