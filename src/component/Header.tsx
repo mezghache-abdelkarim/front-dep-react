@@ -23,7 +23,7 @@ const Header:React.FC<Props> = () => {
   </Navbar>
   <Navbar collapseOnSelect expand="lg" className='nav2  p-0' bg="light" variant="light">
   <Container fluid className='p-0'>
-    <Navbar.Brand className='mx-4 p-0' href="#home">
+    <Navbar.Brand className='mx-4 p-0' href="/">
     <img className="logo mx-1 p-2" src="/images/info-logo-black.png"  alt="" />
     </Navbar.Brand>
     <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
@@ -32,11 +32,11 @@ const Header:React.FC<Props> = () => {
       <li>
       <Nav.Link className='px-4' href="#">Emploie du Temps</Nav.Link>
       <Nav.Link className='px-4' href="#">Contactez-nous</Nav.Link></li>
-      <Nav.Link href="#home">Presenttion</Nav.Link>
-      <Nav.Link href="#features">Affichage</Nav.Link>
+      <Nav.Link href="/Speciality">Presenttion</Nav.Link>
+      <Nav.Link href="/">Affichage</Nav.Link>
       <NavDropdown title="Orientaion" >
-        <NavDropdown.Item >vers 3eme année (ISIL-SI)</NavDropdown.Item>
-        <NavDropdown.Item href=''> vers Master1 (SI, RSD, GLAA, SIAA)</NavDropdown.Item>
+        <NavDropdown.Item href="/Orientation/licence" >vers 3eme année (ISIL-SI)</NavDropdown.Item>
+        <NavDropdown.Item href='/Orientation/master'> vers Master1 (SI, RSD, GLAA, SIAA)</NavDropdown.Item>
         <NavDropdown.Item >recours orinetation vers Master1 (SI, RSD, GLAA)</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Projet fin d'étude" >
@@ -48,12 +48,11 @@ const Header:React.FC<Props> = () => {
         <NavDropdown.Item >faire un recours</NavDropdown.Item>
         <NavDropdown.Item >afficher liste recours</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="#pricing">Inscription </Nav.Link>
+      <Nav.Link href="/inscription">Inscription </Nav.Link>
       <Nav.Link className="search-icon" onClick={()=> setsearshShow(true)} href="#pricing"><i className="fas fa-search"/></Nav.Link>
     </Nav>
     </Navbar.Collapse>
     </Container>
-  </Navbar>
   <Modal
         size="lg"
         show={searshShow}
@@ -77,6 +76,7 @@ const Header:React.FC<Props> = () => {
       </InputGroup>
     </Modal.Body>
   </Modal>
+  </Navbar>
     </>
      );
 }

@@ -1,0 +1,74 @@
+.orientation .title img {
+    width: 35%;
+}
+
+.orientation .title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.orientation .title span {
+    font-weight: 600;
+    display: block;
+}
+
+.orientation .title span {
+    font-weight: 600;
+    display: block;
+}
+
+.orientation p {
+    padding-top: 5%;
+    font-size: 1em;
+}
+
+.orientation a {
+    text-decoration: none;
+}
+
+.orientation form {
+    padding-top: 10%;
+}
+
+.orientation .form-label {
+    float: left;
+    font-weight: 600;
+}
+
+.orientation input[type=text]:focus {
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid #555;
+}
+
+.orientation input[type=text] {
+    /* border: 0px ; */
+    border-radius: 0px;
+    border-bottom: 2px solid #555;
+}
+
+.orientation .selection select {
+    /* border: 0px ; */
+    border-radius: 1px;
+    border: 2px solid #555;
+}
+
+.orientation .btn-primary {
+    border: #792965 solid 1px;
+    border-radius: 0%;
+    background-color: #792965;
+    color: #eff2f5;
+    font-weight: 600;
+}
+
+.orientation .btn-primary a {
+    color: #eff2f5;
+
+}
+
+.orientation .btn-secondary {
+    color: black;
+    background-color: white;
+    border-radius: 0%;
+    border: 1px solid #555;
+}

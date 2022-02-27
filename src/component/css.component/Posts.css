@@ -1,0 +1,50 @@
+.AffichageTable .TA img{
+    width: 12%;
+}
+
+@media (max-width: 589px) { 
+    .AffichageTable .TA img{
+        width: 40%;
+    }
+    
+}
+.AffichageTable .TA span{
+    font-weight: 600;
+}
+.AffichageTable .form-select{
+    width: 120%;
+    color:#eff2f5;
+    background-color: #33b8e7;
+}
+.AffichageTable option{
+    background-color: #eff2f5;
+    color:#1c1c1b;
+}
+.AffichageTable  optgroup{
+    color:#1c1c1b;
+    background-color: #eff2f5;
+}
+.AffichageTable .card{
+    border-radius: 0% !important;
+    border:0em;
+    text-align: left!important;
+    width: 100%;
+    padding: 5%;
+}
+.AffichageTable .card-body{
+    background-color: #eff2f5;
+}
+.AffichageTable .card .card-header{
+    border-radius: 0% !important;
+    background-color: #1c1c1b;
+    color:#eff2f5 ;
+}
+.AffichageTable .card .card-text{
+    border-bottom: #1c1c1b solid 1px !important;
+}
+.AffichageTable .card a{
+    text-decoration: none;
+    color: #eff2f5;
+    background-color: #33b8e7;
+    width: 100%;
+}

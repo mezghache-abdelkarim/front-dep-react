@@ -1,0 +1,29 @@
+.SignUp .background-black img {
+    opacity: 50%;
+    width: 80%;
+    padding: 10%;
+    margin: 10%;
+}
+.SignUp .title p{
+    margin: 0%;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+.SignUp .title img{
+    width: 25%;
+}
+.SignUp .form {
+    padding: 5%;
+}
+.SignUp input:focus {
+    border: 0px;
+    border-radius: 0px;
+    border-bottom: 2px solid #555;
+}
+
+.SignUp input {
+    /* border: 0px ; */
+    border-radius: 0px;
+    border-bottom: 2px solid #555;
+}

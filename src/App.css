@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+.background-yellow {
+  background-color: #cccd00 ;
+}
+.background-blue {
+  background-color: #33b8e7;
+}
+.background-blueviolet{
+  background-color: #792965;
+}
+.background-black{
+  background-color: #1c1c1b;
+}
+.background-grey{
+  background-color: #5b5c5c;
+}
+.background-white{
+  background-color: #eff2f5;
+}

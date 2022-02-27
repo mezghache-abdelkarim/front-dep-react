@@ -1,0 +1,22 @@
+.footer{
+    background-color:#1c1c1b ;
+    color: #efefef;
+}
+.footer img{
+    width: 80%;
+    margin-top: -20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #efefef;
+    display: block;
+    padding: 4px;
+
+}
+.footer .subfooter {
+    color: #5b5c5c;
+    font-size: 0.9em;
+}
+.modal-backdrop{
+background-color :rgba(0,0,0,0.5);
+}

@@ -1,0 +1,39 @@
+.SpecialityHeader img {
+    width:100%;  
+}
+.SpecialityHeader .title span{
+    font-weight: 600; 
+    display: block;
+}
+.SpecialityHeader .title {
+    /* font-size:2em; */
+    font-size:200%;
+
+}
+.SpecialityHeader .title img{
+    width: 15%;
+}
+.SpecialityHeader .description p{
+    width: 55%;
+    /* font-size:1.1em; */
+    font-size:110%;
+    padding-top: 1em;
+
+}
+
+.SpecialityHeader .content {
+    position: absolute;
+
+}
+@media (max-width: 589px) { 
+    .SpecialityHeader .title {
+        /* font-size:2em; */
+        font-size:100%;
+    }
+    .SpecialityHeader .description p{
+        width: 55%;
+        /* font-size:1.1em; */
+        font-size:70%;
+        padding-top: 1em;
+    }
+}

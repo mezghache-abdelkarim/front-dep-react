@@ -53,3 +53,6 @@
   .modal-lg{
     margin-top: 10rem;
   }
+  .modal-content{
+    width: 100%;
+  }

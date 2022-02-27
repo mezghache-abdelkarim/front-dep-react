@@ -3,46 +3,46 @@
     position: relative;
     }
   
-  .HomePageHeader .col-lg-5{
-    background-color: #1c1c1b;
-  }
-  .HomePageHeader .col-lg-5 img{
-    position: absolute;
-    max-width: 100%;
-    height: 500px;
-    margin-left: -330px;
-    /* opacity: 6%; */
-    background-color: #1c1c1b ;
-    z-index: 1;
-  }
-  .HomePageHeader .col-lg-7 img{
-    width: 893px;
-    height: 500px;
-  }
-  .HomePageHeader .carousel{
-    position: absolute;
-    z-index: 2;
-    background-color: #eff2fe;    /*z-index: -1;*/
-    width: 420px;
-    height: 170px;
-    top: 20%;
-    left: 20%;
-    text-align: left;
-  }
-  .HomePageHeader .carousel p {
-    color: #1c1c1b !important ;
-    font-size: 110%;
-    font-weight: 700;
-  }
-  .HomePageHeader .carousel-control-prev{
+.HomePageHeader .col-5{
+  background-color: #1c1c1b;
+}
+.HomePageHeader .col-5 img{
+  position: absolute;
+  max-width: 100%;
+  height: 500px;
+  margin-left: -330px;
+  /* opacity: 6%; */
+  background-color: #1c1c1b ;
+  z-index: 1;
+}
+.HomePageHeader .col-7 img{
+  width: 100%;
+  height: 500px;
+}
+.HomePageHeader .carousel{
+  position: absolute;
+  z-index: 2;
+  background-color: #eff2fe;    /*z-index: -1;*/
+  width: 40%;
+  height: 170px;
+  margin-top: 5%;
+  margin-left: 20%;
+  text-align: left;
+}
+.HomePageHeader .carousel p {
+  color: #1c1c1b !important ;
+  font-size: 110%;
+  font-weight: 700;
+}
+.HomePageHeader .carousel-control-prev{
   display: none;
 }
 .HomePageHeader .carousel-control-next{
   display: none;
 }
 .HomePageHeader .carousel-indicators{
-margin-bottom: -40px;
-margin-left: -240px;}
+margin-bottom: -13%;
+margin-left: -50%;}
 
 .HomePageHeader .carousel-indicators button{
 width: 15px !important ;
@@ -64,6 +64,32 @@ border: 2px solid #efefef !important ;
 .HomePageHeader .carousel-item i{
   color: #efefef;
 }
+@media (max-width: 991px) { 
+  .HomePageHeader .carousel p {
+    font-size: 90% !important;
+    font-weight: 600 !important;
+  }
+  .HomePageHeader .carousel-item a {
+    padding: 5px 35px 5px 35px !important;
+  }
+  .homePageHeader .carousel {
+    height: 40% !important;
+  }
+}
 @media (max-width: 589px) { 
+  .HomePageHeader .carousel p {
+    font-size: 70% !important;
+    font-weight: 500 !important;
+  }
+  .homePageHeader .carousel {
+    height: 40% !important;
+  }
+  .HomePageHeader .carousel-item {
+    padding: 8% !important;
+  }
+  .HomePageHeader .carousel-item a{
+   padding: 5px 25px 5px 25px !important ;
+    ;
+  }
 
 }

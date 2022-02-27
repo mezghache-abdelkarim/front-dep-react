@@ -1,0 +1,40 @@
+.DocumentsRequest .DR img{
+    width: 12%;
+}
+
+@media (max-width: 589px) { 
+    .DocumentsRequest .DR img{
+        width: 40%;
+    }
+    
+}
+.DocumentsRequest .DR span{
+    font-weight: 600;
+}
+.DocumentsRequest .row .hstack {
+    border: #5b5c5c solid 1px ;
+    border-radius: 0.5em;
+    font-weight: 600;
+    width: 98%;
+}
+.DocumentsRequest .row .hstack button{
+    border: #792965 solid 1px ;
+    border-radius: 0%;
+    background-color: #792965;
+    color: #eff2f5;
+    font-weight: 600;
+}
+.DocumentsRequestModal .modal-footer button{
+    border: #792965 solid 1px ;
+    border-radius: 0%;
+    background-color: #792965;
+    color: #eff2f5;
+    font-weight: 600;
+}
+.DocumentsRequestModal .modal-footer .annuler{
+    border: #5b5c5c solid 1px ;
+    border-radius: 0%;
+    background-color:#eff2f5;
+    color: #5b5c5c;
+    font-weight: 600;
+}

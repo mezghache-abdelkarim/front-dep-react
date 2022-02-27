@@ -1,0 +1,68 @@
+.SpecialityContent {
+    margin-top: -25%;
+}
+
+.SpecialityContent .title img{
+    width: 15%;
+}
+.SpecialityContent .title span{
+    font-weight: 600; 
+    display: block;
+}
+.SpecialityContent .title {
+    /* font-size: 2em; */
+    font-size: 200%;
+
+}
+.SpecialityContent .card {
+    color: white !important;
+    width: 90%;    
+    margin-top: 2em ;
+    margin-bottom: 1em;
+}
+.SpecialityContent .card .card-title{
+    /* font-size: 1.5rem ; */
+    font-size: 150% ;
+
+    width: 80%;
+}
+.SpecialityContent .card .card-body{
+    padding: 2em;
+    width: 100%;
+}
+.SpecialityContent .card .card-text{
+    padding-top: 1em ;
+    padding-bottom: 1em ;
+    font-size: 1em;
+    font-weight: 400;
+
+}
+.SpecialityContent .card-link{
+    text-decoration: none;
+    color: white !important;
+    font-weight: 800;
+
+}
+.SpecialityContent .content p{
+    font-weight: 700;
+    /* font-size: 1.5em;  */
+    font-size: 150%; 
+    display: block;
+    padding-top: 1em;
+}
+@media (max-width: 589px) { 
+    .SpecialityContent .title {
+        /* font-size: 2em; */
+        font-size: 100%;
+    }
+    .SpecialityContent .content p{
+        font-weight: 700;
+        /* font-size: 1.5em;  */
+        font-size: 100%; 
+        display: block;
+        padding-top: 1em;
+    }
+    .SpecialityContent {
+        margin-top:  25%;
+    }
+}
